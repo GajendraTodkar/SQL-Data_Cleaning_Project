@@ -72,7 +72,7 @@ This project demonstrates data cleaning and preprocessing on a customer orders d
 
 ---
 
-## 🧩 SQL Techniques Used
+## 🧩 Tech Stack 
 
 - STRING_SPLIT + FOR XML PATH('') → Proper Case for multi-word strings
 - LOWER(), UPPER(), LEFT(), SUBSTRING() → Text standardization
