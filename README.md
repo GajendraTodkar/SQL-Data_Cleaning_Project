@@ -74,13 +74,13 @@ This project demonstrates data cleaning and preprocessing on a customer orders d
 
 ## 🧩 Tech Stack 
 
-- STRING_SPLIT + FOR XML PATH('') → Proper Case for multi-word strings
-- LOWER(), UPPER(), LEFT(), SUBSTRING() → Text standardization
-- TRY_CAST() / CAST() → Numeric conversion
-- REPLACE() → Remove unwanted characters
-- ISNULL() → Handle missing values
-- ROW_NUMBER() OVER (PARTITION BY...) → Remove duplicates
-- FORMAT() → Date formatting
+- **STRING_SPLIT** + **FOR XML PATH('')** → Proper Case for multi-word strings
+- **LOWER()**, **UPPER()**, **LEFT()**, **SUBSTRING()** → Text standardization
+- **TRY_CAST()** / **CAST()** → Numeric conversion
+- **REPLACE()** → Remove unwanted characters
+- **ISNULL()** → Handle missing values
+- **ROW_NUMBER() OVER (PARTITION BY...)** → Remove duplicates
+- **FORMAT()** → Date formatting
 
 ---
 
