@@ -6,7 +6,7 @@ This project demonstrates data cleaning and preprocessing on a customer orders d
 
 ---
 
-## Raw data
+## 📝 Raw data
 
 <img width="1071" height="324" alt="Picture1" src="https://github.com/user-attachments/assets/6b7de9a4-6814-474e-9fd9-3e680fdaf1f7" />
 
@@ -66,6 +66,9 @@ Replaced missing or placeholder notes (NULL, -) with 'No Comments'.
 Removed duplicate records based on email and product name, keeping the earliest order_id using ROW_NUMBER().
 
 ## ✅ Result
+
+<img width="1043" height="224" alt="cleandata" src="https://github.com/user-attachments/assets/defd4dc4-dc83-478f-9ddb-d822cd90bf5e" />
+
 
 The final cleaned dataset ensures:
 
