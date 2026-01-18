@@ -1,4 +1,5 @@
-# 🧹 Data Cleaning Project – Customer Orders
+<h1 align="center"> 🧹 Data Cleaning Project – Customer Orders </h1>
+
 
 ## 🎯 Project Overview
 
@@ -54,6 +55,9 @@ This project demonstrates data cleaning and preprocessing on a customer orders d
 ### 10. Duplicate Removal
 - Removed duplicate records based on email and product name, keeping the earliest order_id using ROW_NUMBER().
 
+- --
+
+
 ## ✅ Result
 
 <img width="1043" height="224" alt="cleandata" src="https://github.com/user-attachments/assets/defd4dc4-dc83-478f-9ddb-d822cd90bf5e" />
@@ -66,6 +70,8 @@ This project demonstrates data cleaning and preprocessing on a customer orders d
 - Duplicate-free entries.
 - This dataset is now ready for analysis, reporting, or visualization in tools like Power BI, Excel, or Python.
 
+---
+
 ## 🧩 SQL Techniques Used
 
 - STRING_SPLIT + FOR XML PATH('') → Proper Case for multi-word strings
@@ -75,3 +81,12 @@ This project demonstrates data cleaning and preprocessing on a customer orders d
 - ISNULL() → Handle missing values
 - ROW_NUMBER() OVER (PARTITION BY...) → Remove duplicates
 - FORMAT() → Date formatting
+
+---
+
+ ## ☕ Stay Connected
+
+Let's stay in touch! Feel free to connect with me on the following platforms:
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]()
+[![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=google-chrome&logoColor=white)](gajendra.todkar.github.io)
