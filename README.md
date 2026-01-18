@@ -64,7 +64,7 @@ This project demonstrates data cleaning and preprocessing on a customer orders d
 
 
 ### The final cleaned dataset ensures:
-- bConsistent naming conventions.
+- Consistent naming conventions.
 - Correct data types for numeric and date fields.
 - No missing critical values (price, email, etc. replaced with defaults).
 - Duplicate-free entries.
