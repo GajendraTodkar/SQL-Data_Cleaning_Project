@@ -11,6 +11,20 @@ This project demonstrates data cleaning and preprocessing on a customer orders d
 
 <img width="1071" height="324" alt="Picture1" src="https://github.com/user-attachments/assets/6b7de9a4-6814-474e-9fd9-3e680fdaf1f7" />
 
+
+### The raw data contained several issues that would break a standard reporting dashboard:
+
+**Inconsistent Casing:** Names and statuses were a mix of UPPER, lower, and MiXeD case.
+
+**Format Errors:** Numeric quantities were written as text ("three" instead of 3).
+
+**Dirty Financials:** Price columns contained currency symbols (₹, $) and commas, preventing mathematical calculations.
+
+**Duplicates:** Multiple entries for the same customer/product combinations.
+
+**Missing Values:** NULL entries in critical fields like Email and Notes.
+
+
 ---
 
 
@@ -19,7 +33,9 @@ This project demonstrates data cleaning and preprocessing on a customer orders d
 ### 1. Customer Name Standardization
 - Converted names to Proper Case (first letter capital, rest lowercase).  
 - Replaced 'NULL' values with 'Not Available'.  
-- Handled multi-word names correctly using STRING_SPLIT and FOR XML PATH.  
+- Handled multi-word names correctly using STRING_SPLIT and FOR XML PATH.
+
+ 
 
 ### 2. Email Standardization
 - Converted all emails to lowercase.  
