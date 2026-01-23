@@ -15,13 +15,9 @@ This project demonstrates data cleaning and preprocessing on a customer orders d
 ### The raw data contained several issues that would break a standard reporting dashboard:
 
 **Inconsistent Casing:** Names and statuses were a mix of UPPER, lower, and MiXeD case.
-
 **Format Errors:** Numeric quantities were written as text ("three" instead of 3).
-
 **Dirty Financials:** Price columns contained currency symbols (₹, $) and commas, preventing mathematical calculations.
-
 **Duplicates:** Multiple entries for the same customer/product combinations.
-
 **Missing Values:** NULL entries in critical fields like Email and Notes.
 
 
